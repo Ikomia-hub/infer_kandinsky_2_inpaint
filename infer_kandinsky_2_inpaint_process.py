@@ -22,7 +22,7 @@ class InferKandinsky2InpaintParam(core.CWorkflowTaskParam):
         self.guidance_scale = 1.0
         self.negative_prompt = "lowres, text, error, cropped, worst quality, low quality, ugly"
         self.prior_num_inference_steps = 25
-        self.num_inference_steps = 10
+        self.num_inference_steps = 150
         self.seed = -1
         self.update = False
 

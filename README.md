@@ -77,7 +77,7 @@ Ikomia Studio offers a friendly UI with the same features as the API.
 - **negative_prompt** (str, *optional*) - default 'low quality, bad quality': The prompt not to guide the image generation. Ignored when not using guidance (i.e., ignored if `guidance_scale` is less than `1`).
 - **prior_num_inference_steps** (int) - default '25': Number of denoising steps of the prior model (CLIP).
 - **prior_guidance_scale** (float) - default '4.0':  Higher guidance scale encourages to generate images that are closely linked to the text prompt, usually at the expense of lower image quality. (minimum: 1; maximum: 20).
-- **num_inference_steps** (int) - default '100': The number of denoising steps. More denoising steps usually lead to a higher quality image at the expense of slower inference.
+- **num_inference_steps** (int) - default '150': The number of denoising steps. More denoising steps usually lead to a higher quality image at the expense of slower inference.
 - **guidance_scale** (float) - default '1.0':  Higher guidance scale encourages to generate images that are closely linked to the text prompt, usually at the expense of lower image quality. (minimum: 1; maximum: 20).
 - **seed** (int) - default '-1': Seed value. '-1' generates a random number between 0 and 191965535.
 

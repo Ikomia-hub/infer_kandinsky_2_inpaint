@@ -220,7 +220,7 @@ class InferKandinsky2InpaintFactory(dataprocess.CTaskFactory):
         # URL of documentation
         self.info.documentation_link = "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder"
         # Code source repository
-        self.info.repository = "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder-inpaint"
+        self.info.repository = "https://github.com/Ikomia-hub/infer_kandinsky_2_inpaint"
         self.info.original_repository = "https://github.com/ai-forever/Kandinsky-2"
         # Keywords used for search
         self.info.algo_type = core.AlgoType.INFER

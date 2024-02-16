@@ -112,7 +112,6 @@ class InferKandinsky2Inpaint(dataprocess.C2dImageTask):
 
         # Resize the image
         resized_img = img.resize((new_width, new_height), Image.LANCZOS)
-        print('IMAAAGE', new_width, new_height)
         return resized_img, new_height, new_width
 
     def run(self):
@@ -210,7 +209,7 @@ class InferKandinsky2InpaintFactory(dataprocess.CTaskFactory):
         self.info.short_description = "Kandinsky 2.2 inpainting diffusion model."
         # relative path -> as displayed in Ikomia Studio algorithm tree
         self.info.path = "Plugins/Python/Diffusion"
-        self.info.version = "1.0.0"
+        self.info.version = "1.0.1"
         self.info.icon_path = "images/einstein.jpg"
         self.info.authors = "A. Shakhmatov, A. Razzhigaev, A. Nikolich, V. Arkhipkin, I. Pavlov, A. Kuznetsov, D. Dimitrov"
         self.info.article = "https://aclanthology.org/2023.emnlp-demo.25/"
